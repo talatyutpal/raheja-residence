@@ -37,6 +37,24 @@ if ((!isset($_COOKIE['formfilled'])) && isset($_REQUEST['mobile'])) {
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PHKKVMK3');
+    </script>
+    <!-- End Google Tag Manager -->
 
     <img src="https://click.cereone.com/p?m=3376&t=i&gb=1" width="0px" height="0px">
 
@@ -58,6 +76,11 @@ if ((!isset($_COOKIE['formfilled'])) && isset($_REQUEST['mobile'])) {
 </head>
 
 <body class="site com-sppagebuilder view-page no-layout no-task itemid-550 en-gb ltr  sticky-header layout-fluid">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHKKVMK3"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <div class="body-innerwrapper">
 
